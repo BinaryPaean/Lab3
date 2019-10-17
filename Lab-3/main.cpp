@@ -7,6 +7,7 @@
 using namespace std;
 
 //Binary to int
+//Allowed to use std::stoi?
 int to_int(const string& b) {
     int final = 0;
     for (int i = 0; i < b.length(); i++) 
